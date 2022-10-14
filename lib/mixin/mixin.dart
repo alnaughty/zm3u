@@ -1,7 +1,7 @@
 import 'package:m3u_z_parser/src/models/m3u_entry.dart';
 
 mixin Categorizer {
-  Map<String, List<M3uEntry>> categorize(
+  Map<String, List<M3uEntry>> categorizeFile(
       {required List<M3uEntry> data, required String needle}) {
     return data.fold(<String, List<M3uEntry>>{}, (acc, current) {
       final property = current.attributes[needle] ?? "tvg-id";

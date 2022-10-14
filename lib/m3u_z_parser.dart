@@ -9,6 +9,7 @@ import 'package:m3u_z_parser/src/file_type.dart';
 import 'package:m3u_z_parser/src/models/entry_info.dart';
 import 'package:m3u_z_parser/src/models/m3u_entry.dart';
 export 'package:m3u_z_parser/extension/extension.dart';
+export 'package:m3u_z_parser/src/models/entry_info.dart';
 
 class M3uZParser with Categorizer {
   static Future<List<M3uEntry>> parse(String source) async =>

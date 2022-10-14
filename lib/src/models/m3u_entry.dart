@@ -1,4 +1,5 @@
 import 'package:m3u_z_parser/src/models/entry_info.dart';
+export 'package:m3u_z_parser/src/models/entry_info.dart';
 
 class M3uEntry {
   /// Generic constructor with
